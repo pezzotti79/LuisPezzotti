@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c0ffd0;
+    color: #333;
+}
+
+nav {
+    background-color: #4CAF50;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #3e8e41;
+    border-radius: 5px;
+}
+
+.contact-page {
+    background-color: #378b95(0, 0%, 96%);
+    text-align: left;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+    width: 500px;
+    border: 1px solid #378b95;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #378b95;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    width: auto;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: 20px 0;
+    width: 300px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+header {
+    text-align: left;
+    margin-top: 20px;
+}
